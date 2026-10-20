@@ -1,0 +1,30 @@
+{
+  "checked_on": "2026-10-19",
+  "csv": {
+    "url": "https://drive.google.com/uc?export=view&id=1kWs6yOYpdjVr-liLPs4PKIs1qSpIohzS",
+    "sha256": "6325232cabf13fd098da9a6ae3baa7a34718043c096fc277782651f4c6fd9ff4",
+    "bytes": 31994890,
+    "rows": 24988,
+    "class_counts": {"negative": 12496, "positive": 12492},
+    "extra_duplicate_rows": 96,
+    "unique_review_texts": 24892,
+    "source_split": "All rows match a transformed subset of the Stanford IMDb v1.0 training split, including labels.",
+    "preparer_and_selection_history": "Not established; twelve original training reviews are absent.",
+    "license": "No explicit license for this derivative CSV was established. No dataset is redistributed here."
+  },
+  "stanford_archive": {
+    "url": "https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz",
+    "homepage": "https://ai.stanford.edu/~amaas/data/sentiment/",
+    "sha256": "c40f74a18d3b61f90feba1e17730e0d38e8b97c05fde7008942e91923d1658fe",
+    "bytes": 84125825,
+    "version": "Large Movie Review Dataset v1.0",
+    "citation": "Maas et al. (2011), Learning Word Vectors for Sentiment Analysis, ACL-HLT, pp. 142–150.",
+    "paper": "https://aclanthology.org/P11-1015/",
+    "license_note": "The downloaded archive README requests citation but does not specify an explicit redistribution license."
+  },
+  "model": {
+    "id": "distilbert/distilbert-base-uncased",
+    "revision_for_new_runs": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+    "historical_revision": "Not recorded in the original notebook."
+  }
+}

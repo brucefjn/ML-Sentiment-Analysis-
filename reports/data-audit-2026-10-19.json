@@ -1,0 +1,98 @@
+{
+  "deduplicated": {
+    "bytes": 31994890,
+    "class_counts": {
+      "negative": 12496,
+      "positive": 12492
+    },
+    "conflicting_label_groups": 0,
+    "duplicate_text_groups": 92,
+    "extra_duplicate_rows": 96,
+    "rows": 24988,
+    "rows_in_duplicate_groups": 188,
+    "sha256": "6325232cabf13fd098da9a6ae3baa7a34718043c096fc277782651f4c6fd9ff4",
+    "split": {
+      "deduplicated": true,
+      "ordered_train_source_rows_sha256": "c818b43fee0801313252c01c76d65bf2590a88a50dd55921ab577aca1b7d700c",
+      "ordered_validation_source_rows_sha256": "63b92fe15ed9b0e4c6f261ea18fc0c4303862c148f29ef8a41289c83096f269e",
+      "random_state": 20,
+      "shared_review_texts": 0,
+      "train_class_counts": {
+        "negative": 9942,
+        "positive": 9971
+      },
+      "train_rows": 19913,
+      "training_rows_with_shared_text": 0,
+      "validation_class_counts": {
+        "negative": 2486,
+        "positive": 2493
+      },
+      "validation_fraction": 0.2,
+      "validation_rows": 4979,
+      "validation_rows_with_shared_text": 0
+    },
+    "unique_review_texts": 24892
+  },
+  "original": {
+    "bytes": 31994890,
+    "class_counts": {
+      "negative": 12496,
+      "positive": 12492
+    },
+    "conflicting_label_groups": 0,
+    "duplicate_text_groups": 92,
+    "extra_duplicate_rows": 96,
+    "rows": 24988,
+    "rows_in_duplicate_groups": 188,
+    "sha256": "6325232cabf13fd098da9a6ae3baa7a34718043c096fc277782651f4c6fd9ff4",
+    "split": {
+      "deduplicated": false,
+      "ordered_train_source_rows_sha256": "a34b34206e1bba036ea907d07a8570a14090e7e3348135d8f5e17717e1ad4077",
+      "ordered_validation_source_rows_sha256": "a2a20d8792240f01fc51dde08033e8da1b1f43e100dfa6c1c3dd5585b6bead7c",
+      "random_state": 20,
+      "shared_review_texts": 24,
+      "train_class_counts": {
+        "negative": 9997,
+        "positive": 9993
+      },
+      "train_rows": 19990,
+      "training_rows_with_shared_text": 25,
+      "validation_class_counts": {
+        "negative": 2499,
+        "positive": 2499
+      },
+      "validation_fraction": 0.2,
+      "validation_rows": 4998,
+      "validation_rows_with_shared_text": 25
+    },
+    "unique_review_texts": 24892
+  },
+  "packages": {
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0"
+  },
+  "python": "3.13.7",
+  "scope": "Data audit only; no model training or new accuracy estimate.",
+  "stanford_match": {
+    "archive_sha256": "c40f74a18d3b61f90feba1e17730e0d38e8b97c05fde7008942e91923d1658fe",
+    "csv_rows_not_matched_in_train_with_same_label": 0,
+    "note": "Exact multiset match after matching_transform, including labels; original CSV preparation history remains unknown.",
+    "omitted_source_files": [
+      "aclImdb/train/neg/10176_1.txt",
+      "aclImdb/train/neg/11880_1.txt",
+      "aclImdb/train/neg/2190_2.txt",
+      "aclImdb/train/neg/3573_4.txt",
+      "aclImdb/train/pos/10526_9.txt",
+      "aclImdb/train/pos/1862_8.txt",
+      "aclImdb/train/pos/3069_9.txt",
+      "aclImdb/train/pos/3618_7.txt",
+      "aclImdb/train/pos/3738_8.txt",
+      "aclImdb/train/pos/487_8.txt",
+      "aclImdb/train/pos/490_9.txt",
+      "aclImdb/train/pos/6288_7.txt"
+    ],
+    "stanford_train_rows": 25000,
+    "train_rows_not_represented_in_csv": 12
+  }
+}
